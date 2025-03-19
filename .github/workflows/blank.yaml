@@ -21,6 +21,6 @@ jobs:
     needs: run-shell-commands
     steps:
       - name: echo a string
-        run: Write-Output "Windows String"
+        run: Write-Output "This is from a test branch"
       - name: Error Step
         run: doesnotexits
